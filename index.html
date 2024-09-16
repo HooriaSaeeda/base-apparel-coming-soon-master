@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor |base-apparel-coming-soon-master</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <img src="./images/logo.svg" alt="Logo">
+        </header>
+        <div class="container1">
+            <picture class="hero-img"></picture>
+        </div>
+        <div class="container2"> 
+            <main>
+                <h1 class="title">
+                    <span class="fancy">We're </span>coming soon
+                </h1>
+                <p class="descp">
+                    Hello fellow shoppers! We're currently building our new fashion store.
+                    Add your email below to stay up-to-date with announcements and our launch deals.
+                </p>
+                <form action="" method="post" name="subscriptionForm" class="subscriptionForm">
+                    <input type="email" id="email" placeholder="Email Address" novalidate>
+                    <img src="./images/icon-error.svg" class="icon-error" alt="icon error">
+                    <button type="submit" onclick="validate(document.subscriptionForm.email)"><img
+                            src="./images/icon-arrow.svg" alt="icon-arrow"></button>
+                </form>
+                <div class="verification">
+                    <h3>Please provide a valid email</h3>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Your Name Here</a>.
+        </p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
