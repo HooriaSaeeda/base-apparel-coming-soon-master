@@ -42,8 +42,8 @@ This is a **"Coming Soon"** landing page for a fashion store, designed to notify
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/hoor23/base-apparel-coming-soon-master.git](https://github.com/hoor23/base-apparel-coming-soon-master.git)
+- Live Site URL: [https://hoor23.github.io/base-apparel-coming-soon-master/](https://hoor23.github.io/base-apparel-coming-soon-master/)
 
 ## My process
 
